@@ -6,7 +6,7 @@ Console.Clear();
 int numero;
 
 Console.WriteLine("Digite um número: ");
-numero =Convert.ToInt32(Console.ReadLine());
+numero = Convert.ToInt32(Console.ReadLine());
 
 if(numero >= 0) //se o número for maior ou igual a zero
 { //faça isso
@@ -24,3 +24,6 @@ if(numero <= -1) //se o número for menor ou igual a -1
 Console.WriteLine($"O número digitado é {numero}.");
 
 Console.ResetColor();
+
+// 1 é igual a 2? (==)
+// 1 é igual ou menor que 1? (!=)
